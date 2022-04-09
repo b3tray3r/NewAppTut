@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFrame">
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/desiredleaguebg"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-56dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="111dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/swooshlogo" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/sw_button"
+        android:fontFamily="@font/montserrat_alternates_medium"
+        android:onClick="nextActivity"
+        android:text="NEXT"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/menBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/sw_toogle"
+        android:checked="false"
+        android:onClick="menClick"
+        android:text="Men"
+        android:textColor="@color/toogle_color"
+        android:textOff="Men"
+        android:textOn="Men"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ToggleButton
+        android:id="@+id/womenBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/sw_toogle"
+        android:onClick="womenClick"
+        android:text="Women"
+        android:textColor="@color/toogle_color"
+        android:textOff="Women"
+        android:textOn="Women"
+        app:layout_constraintEnd_toEndOf="@+id/menBtn"
+        app:layout_constraintStart_toStartOf="@+id/menBtn"
+        app:layout_constraintTop_toBottomOf="@+id/menBtn" />
+
+    <ToggleButton
+        android:id="@+id/coedBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/sw_toogle"
+        android:checked="false"
+        android:onClick="coedClick"
+        android:text="Co-ed"
+        android:textColor="@color/toogle_color"
+        android:textOff="Co-ed"
+        android:textOn="Co-ed"
+        app:layout_constraintEnd_toEndOf="@+id/womenBtn"
+        app:layout_constraintStart_toStartOf="@+id/womenBtn"
+        app:layout_constraintTop_toBottomOf="@+id/womenBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

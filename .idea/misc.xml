@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/NewAppTut/app/src/main/res/drawable/sw_button.xml" value="0.3828125" />
+        <entry key="..\:/NewAppTut/app/src/main/res/drawable/sw_button_check.xml" value="0.3828125" />
+        <entry key="..\:/NewAppTut/app/src/main/res/drawable/sw_toogle.xml" value="0.3828125" />
+        <entry key="..\:/NewAppTut/app/src/main/res/drawable/toogle_color.xml" value="0.3828125" />
+        <entry key="..\:/NewAppTut/app/src/main/res/layout/activity_final.xml" value="0.36666666666666664" />
+        <entry key="..\:/NewAppTut/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/NewAppTut/app/src/main/res/layout/activity_second_frame.xml" value="0.36666666666666664" />
+        <entry key="..\:/NewAppTut/app/src/main/res/layout/activity_skill.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
